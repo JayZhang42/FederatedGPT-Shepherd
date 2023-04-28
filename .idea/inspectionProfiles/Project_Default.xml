@@ -1,0 +1,22 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="9">
+            <item index="0" class="java.lang.String" itemvalue="appdirs" />
+            <item index="1" class="java.lang.String" itemvalue="gradio" />
+            <item index="2" class="java.lang.String" itemvalue="peft" />
+            <item index="3" class="java.lang.String" itemvalue="black" />
+            <item index="4" class="java.lang.String" itemvalue="accelerate" />
+            <item index="5" class="java.lang.String" itemvalue="fire" />
+            <item index="6" class="java.lang.String" itemvalue="datasets" />
+            <item index="7" class="java.lang.String" itemvalue="loralib" />
+            <item index="8" class="java.lang.String" itemvalue="bitsandbytes" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
