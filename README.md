@@ -80,7 +80,6 @@ You can simply modify `clients_datasets.py` to load your own  dataset for federa
 
 To fully leverage the computational resources of each participating client, our lightweight Federated Learning framework employs the well-established parameter-efficient method, [LoRA](https://github.com/microsoft/LoRA), for conducting local training. The local training process is built upon the implementations of Hugging Face's [PEFT](https://github.com/huggingface/peft), Tim Dettmers' [bitsandbytes](https://github.com/TimDettmers/bitsandbytes), and the [Alpaca-lora](https://github.com/tloen/alpaca-lora), enabling the training to be completed within hours on a single NVIDIA TITAN RTX.
 
-
 Example usage:
 ```bash
 python main.py --global_model 'chavinlo/alpaca-native'\
@@ -133,7 +132,7 @@ python GlobalModel_generate.py \
 Please cite this repo if you find our repository helpful for your research.
 ```
 @misc{Shepherd,
-  author = {Jianyi Zhang, Martin Kuo, Ruiyi Zhang, Guoyin Wang, Saeed Vahidian, Yiran Chen },
+  author = {Jianyi Zhang, Martin Kuo, Ruiyi Zhang, Guoyin Wang, Saeed Vahidian, Yiran Chen},
   title = {Shepherd: Large Language Models with Parameter-Efficient Federated Finetuning in the Presence of Heterogeneous Instructions},
   year = {2023},
   publisher = {GitHub},
