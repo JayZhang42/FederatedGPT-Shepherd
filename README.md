@@ -17,9 +17,8 @@
 </p>
 
 
- [![Code License: PLACE 2.0](https://img.shields.io/badge/Code-License%3A%20PLACE%202.0-blue)](https://github.com/JayZhang42/FederatedGPT-Shepherd/blob/main/LICENSE) \
-  **Usage and License Notices**:The data, code and checkpoints are intended and licensed for research use only.
-
+[![Code License: Apache 2.0](https://img.shields.io/badge/Code%20License-%20Apache%202.0-blue)](https://github.com/JayZhang42/FederatedGPT-Shepherd/blob/main/LICENSE) \
+**Usage and License Notices**:The data, code and checkpoints are intended and licensed for research use only.
 
 ## Overview
 
