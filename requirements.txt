@@ -11,3 +11,5 @@ git+https://github.com/huggingface/transformers.git
 sentencepiece
 gradio
 sentencepiece
+google-api-python-client
+scipy
