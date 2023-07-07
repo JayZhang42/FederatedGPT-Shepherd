@@ -114,7 +114,7 @@ Our framework supports numerous popular LLMs, such as [LLaMA](https://github.com
 The `GlobalModel_generate.py` file streamlines the inference process for the global model by utilizing a Gradio interface. This file loads the foundation model from the Hugging Face Model Hub and obtains the LoRA weights and configurations from the output directory.
 
 ```bash
-python GlobalModel_generate.py \
+python GlobalModel_generated.py \
       --load_8bit \
       --base_model 'chavinlo/alpaca-native' \
       --lora_weights_path /output/path/to/lora_weights  \
